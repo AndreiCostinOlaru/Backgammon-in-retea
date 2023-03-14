@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBoxReguli.Text" xml:space="preserve">
+    <value>Table este un joc pentru 2 jucatori si este o combinatie de noroc si strategie. 
+Jocul se desfasoara pe o tabla de joc compusa din 24 de triunghiuri(locurile pe care se aseaza piesele).
+Triunghiurile sunt de culori alternante si sunt grupate in 4 zone de cate 6 triunghiuri. 
+Zonele sunt denumite astfel: Casa jucatorului si Exterior, si Casa adversarului si Exterior. 
+Casele si exterioarele sunt separate de o bara pe centrul tablei de joc.
+Scopul jocului este sa mutati toate piesele in casa proprie si sa le scoateti din casa inaintea adversarului.
+Directia de mutare a pieselor depinde de culoare acestora.
+Jucatorul care detine piesele negre(Client) va incepe.
+Dupa ce da cu zarurile (click pe butonul "Roll"), jucatorul va muta piesele sale un numar de triunghiuri (click pe piesa dorita, pe zarul care se vrea folosit si apoi pe butonul "Muta") cate indica zarurile date.
+Se aplica urmatoarele reguli:
+
+1. O piesa poate fi mutata doar la un loc liber, care sa nu fie ocupat de 2 sau mai multe piese adverse.
+
+2. Numerele celor 2 zaruri constituie mutari separate. De exemplu, daca un jucator da 3 si 5, el poate muta o piesa 5 locuri la un triunghi liber si alta piesa cu 3 locuri la un triunghi liber, sau poate muta o piesa un total de 8 locuri la un triunghi liber, dar doar daca triunghiul intermediar (situat la 3 sau 5 triunghiuri de cel de start) este de asemenea liber.
+
+3. Un jucator care da o dubla joaca numerele de pe zaruri de doua ori. Un zar de 6 si 6 inseamna ca jucatorul are de facut 4 mutari de 6, si poate muta orice combinatie de piese pe care o crede potrivita pentru a completa aceasta cerinta.
+
+4. Un jucator trebuie sa foloseasca ambele numere (de pe cele 2 zaruri) daca aceasta este posibil (sau toate 4 mutarile la o dubla). Cand doar un singur numar poate fi jucat, jucatorul trebuie sa joace acel numar (mutare). Daca doar un numar poate fi jucat dar nu amandoua, jucatorul trebuie sa joace numarul mai mare. Cand nici un numar nu poate fi jucat, jucatorul isi pierde randul (click pe butonul "Skip"). In cazul dublelor, cand nu se pot juca toate cele 4 mutari, jucatorul trebuie sa joace cate mutari sunt posibile.
+Un loc ocupat de o singura piesa poate fi lovita de o piesa de a adversarului, atunci cand piesa adversa ajunge pe acel loc. Piesa lovita este capturata si asezata pe bara (pe axa centrala a tablei).
+
+5. Oricand un jucator are una sau mai multe piese pe bara, prima sa obligatie e sa intre cu acea piesa (sau acele piese) in casa adversarului. O piesa este intrata prin mutarea sa intr-un loc liber in concordanta cu cat arata zarul.
+De exemplu, daca un jucator da 4 si 6, poate sa intre cu o piesa fie pe triunghiul 4, fie pe triunghiul 6 al adversarului, atata timp cat respectivul loc nu e ocupat de 2 sau mai multe piese ale adversarului.
+Daca nici unul din locuri nu e liber, jucatorul isi pierde randul. Daca un jucator poate sa intre (cu unele) dar nu cu toate piesele sale, trebuie sa intre cu cate poate si apoi pierde restul din randul sau.
+Dupa ce ultima piesa a intrat, orice mutari nefolosite trebuie jucate, mutand fie piesa care a intrat fie alta.
+
+6.Odata ce un jucator a adus toate cele 15 piese proprii in casa sa el poate sa inceapa sa scoata piesele. Jucatorul scoate o piesa dand cu zarurile un numar care sa corespunda cu numarul triunghiului pe care se afla piesa si apoi o scoate de pe tabla. Astfel, dand un 6 jucatorul va scoate o piesa asezata la numarul 6.
+Daca nu este nici o piesa la locul indicat de zar, jucatorul trebuie sa faca o mutare corecta folosind o piesa situata pe un loc cu numar mai mare. Daca nu sunt piese situate pe locurile cu numere mai mari, jucatorului i se permite sa scoata o piesa de pe locul cu cel mai mare numar dintre cele pe care sunt piesele sale. Un jucator nu e obligat sa scoata piese daca poate sa faca alta mutare corecta.
+Un jucator trebuie sa aiba toate piesele sale active in casa sa pentru a putea sa scoata piese. Daca o piesa e lovita in timp ce piesele sunt scoase, jucatorul trebuie sa aduca piesa inapoi in casa sa inainte sa continue sa scoata piesele. 
+
+Primul jucator care scoate toate cele 15 piese castiga jocul.
+</value>
+  </data>
+</root>
